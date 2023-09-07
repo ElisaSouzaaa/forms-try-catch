@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="atividade14.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Formulário de Funcionário</title>
+  </head>
+  <body>
+    <fieldset>
+        <h1>Formulário de Funcionário</h1>
+        <form id="funcionarioForm">
+        <label for="nome">Nome:</label><br />
+        <input type="text" id="nome" name="nome" /><br /><br />
+
+        <label for="idade">Idade:</label><br />
+        <input type="number" id="idade" name="idade" /><br /><br />
+
+        <label for="cargo">Cargo:</label><br />
+        <input type="text" id="cargo" name="cargo" /><br /><br />
+
+        <label for="departamento">Departamento:</label><br />
+        <input type="text" id="departamento" name="departamento" /><br /><br />
+
+        <label for="linguagem">Linguagem de Programação:</label><br />
+        <input type="text" id="linguagem" name="linguagem" /><br /><br />
+
+        <button type="submit">Cadastrar</button>
+        </form>
+
+        <h2>Informações do Funcionário:</h2>
+        <p id="infoApresentacao">Apresentação: </p>
+        <p id="infoTrabalho">Cargo: </p>
+        <p id="infoExtra">Informações Extras: </p>
+        <p id="erroMensagem"></p>
+    </fieldset>
+  </body>
+</html>

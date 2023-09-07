@@ -1,0 +1,36 @@
+fieldset{
+    background-color: lightslategrey;
+    width: 30%;
+    margin-left: 35%;
+    margin-top: 10%;
+    border-radius: 20px;
+}
+#funcionarioForm, h1, h2, p{
+    text-align: center;
+}
+
+h1,h2,p{
+    text-transform: uppercase;
+    color: rgb(39, 44, 47);
+}
+
+label{
+    text-transform: uppercase;
+    color: rgb(39, 44, 47);
+    margin-bottom: 5px;
+}
+
+#infoApresentacao, #infoTrabalho, #infoExtra{
+    color: black;
+}
+
+#erroMensagem{
+    color: red;
+}
+
+button{
+    border-radius: 10px;
+    width: 20%;
+    height: 20%;
+}
+
